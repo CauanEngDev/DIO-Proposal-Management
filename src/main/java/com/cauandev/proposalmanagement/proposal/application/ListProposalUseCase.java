@@ -4,9 +4,11 @@ import com.cauandev.proposalmanagement.proposal.application.list.AccessScope;
 import com.cauandev.proposalmanagement.proposal.application.list.Factory;
 import com.cauandev.proposalmanagement.proposal.application.output.ProposalOutput;
 import com.cauandev.proposalmanagement.proposal.domain.OwnerId;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ListProposalUseCase {
     private final Factory factory;
 
